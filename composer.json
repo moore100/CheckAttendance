@@ -1,0 +1,29 @@
+{
+    "name": "zingchart/phpsap wrapper",
+    "description": "PHP mpesa api ",
+    "homepage": "https://www.renthero.com/phpsap",
+    "type": "library",
+    "keywords": [ "phpsap", "api", "mpesa" ],
+    "authors": [
+        {
+            "name": "PhpSap",
+            "email": "support@renthero.com"
+        }
+    ],
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/moore100/CheckAttendance"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^5.3 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZingChart\\PHPWrapper\\": "src/"
+        }
+    }
+}
